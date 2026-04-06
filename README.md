@@ -13,3 +13,23 @@ This project explores:
 - Which product categories drive the most support-related revenue
 - Which issue categories show lower customer satisfaction
 - How support volume varies across cities and shifts
+## Dataset
+The analysis uses a customer support dataset containing ticket-level information such as:
+- support channel
+- support category and sub-category
+- order ID
+- customer city
+- product category
+- item price
+- agent, supervisor, and manager
+- agent shift
+- CSAT score
+- handling time
+
+The raw CSV was imported into MySQL and then transformed into relational tables for customers, agents, orders, and support tickets. :contentReference[oaicite:1]{index=1}
+
+## Tools Used
+- MySQL
+- MySQL Workbench
+- SQL
+- GitHub
