@@ -110,3 +110,8 @@ Among agents with at least 20 CSAT-scored tickets:
 This analysis suggests that inbound support is currently the strongest-performing customer channel and that email may be an area for service improvement. Product-category results show that Mobile, Home Appliances, and Electronics drive the most support-linked revenue, making them especially important for customer experience strategy.
 
 Agent-level analysis identified both high-performing and lower-performing agents, which could support coaching, training, and quality assurance efforts. Shift-based results suggest there
+## Project Files
+- `README.md` – project overview, findings, and recommendations
+- `sql_queries.sql` – SQL queries used for table creation and analysis
+- `SQL Info.pdf` – exported notes and query findings
+- `Customer_support_data.csv` – raw source dataset
