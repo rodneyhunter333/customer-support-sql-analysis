@@ -33,3 +33,12 @@ The raw CSV was imported into MySQL and then transformed into relational tables 
 - MySQL Workbench
 - SQL
 - GitHub
+## Database Design
+I started with a raw imported table and then created a simplified relational structure:
+
+- `customers`
+- `agents`
+- `orders`
+- `support_tickets`
+
+This structure made it possible to perform joins across customer, order, and support data and answer business questions more efficiently.
