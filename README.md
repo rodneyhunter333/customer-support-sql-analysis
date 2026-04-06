@@ -106,3 +106,7 @@ Among agents with at least 20 CSAT-scored tickets:
 
 ### Monthly Ticket Trend Limitation
 - The monthly trend query returned mostly null values, indicating that the order date field likely needs additional cleaning or conversion before reliable time-series analysis can be performed.
+## Business Insights
+This analysis suggests that inbound support is currently the strongest-performing customer channel and that email may be an area for service improvement. Product-category results show that Mobile, Home Appliances, and Electronics drive the most support-linked revenue, making them especially important for customer experience strategy.
+
+Agent-level analysis identified both high-performing and lower-performing agents, which could support coaching, training, and quality assurance efforts. Shift-based results suggest there
