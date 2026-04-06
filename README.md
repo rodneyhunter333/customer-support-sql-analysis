@@ -42,3 +42,67 @@ I started with a raw imported table and then created a simplified relational str
 - `support_tickets`
 
 This structure made it possible to perform joins across customer, order, and support data and answer business questions more efficiently.
+## Key Findings
+
+### CSAT by Channel
+- Inbound had the highest average CSAT at **4.21** across **3813** tickets
+- Outcall had an average CSAT of **4.13** across **965** tickets
+- Email had the lowest average CSAT at **3.87** across **133** tickets
+
+### Best Agents by CSAT
+- David Smith had an average CSAT of **4.92** across **26** tickets
+- Corlyn Sullivan had an average CSAT of **4.44** across **25** tickets
+
+### High-Volume / High-Quality Agents
+Among agents with at least 20 CSAT-scored tickets:
+- David Smith: **4.92** across **26** tickets
+- Wendy Taylor: **4.82** across **22** tickets
+- Ryan Thompson: **4.62** across **21** tickets
+- Tammy Cochran: **4.50** across **20** tickets
+
+### Lowest Performing Agents
+Among agents with at least 20 CSAT-scored tickets:
+- Jamie Smith: **3.30** across **20** tickets
+- Stacy Singh: **3.70** across **23** tickets
+- Kathryn Jones: **4.05** across **20** tickets
+
+### CSAT by Product Category
+- Lifestyle: **4.04** across **235** tickets
+- Electronics: **3.95** across **240** tickets
+- Furniture: **3.87** across **23** tickets
+- Books & General Merchandise: **3.81** across **187** tickets
+- Home Appliances: **3.77** across **90** tickets
+- Mobile: **3.72** across **135** tickets
+- Home: **3.50** across **82** tickets
+
+### Revenue by Product Category
+- Mobile generated the highest support-linked revenue at **3,102,167**
+- Home Appliances generated **1,344,308**
+- Electronics generated **1,228,542**
+- Lifestyle generated **221,172**
+
+### CSAT by Agent Shift
+- Split shift had the highest average CSAT at **4.40**
+- Afternoon shift averaged **4.29**
+- Evening shift averaged **4.24**
+- Night shift averaged **4.16**
+- Morning shift had the lowest average CSAT at **4.09**
+
+### Top Cities by Support Volume
+- One blank or uncategorized city field accounted for **3622** tickets
+- Hyderabad had **56** tickets
+- New Delhi had **41**
+- Pune had **27**
+- Bangalore had **26**
+
+### Lowest CSAT Issue Categories
+- Others: **3.50**
+- Cancellation: **3.90**
+- Order Related: **4.03**
+- Feedback: **4.05**
+
+### Response Time vs CSAT
+- The response-time grouping returned only a **Fast** bucket with average CSAT of **4.19** across **4911** tickets, suggesting either limited handling-time variation or a need for better bucketing logic.
+
+### Monthly Ticket Trend Limitation
+- The monthly trend query returned mostly null values, indicating that the order date field likely needs additional cleaning or conversion before reliable time-series analysis can be performed.
