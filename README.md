@@ -26,7 +26,7 @@ The analysis uses a customer support dataset containing ticket-level information
 - CSAT score
 - handling time
 
-The raw CSV was imported into MySQL and then transformed into relational tables for customers, agents, orders, and support tickets. :contentReference[oaicite:1]{index=1}
+The raw CSV was imported into MySQL and then transformed into relational tables for customers, agents, orders, and support tickets.
 
 ## Tools Used
 - MySQL
